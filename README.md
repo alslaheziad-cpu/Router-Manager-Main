@@ -1,16 +1,79 @@
-# ziad_hw2flutter
+📱 Router Manager – Flutter App
 
-A new Flutter project.
+تطبيق تعليمي بسيط يوضح جميع طرق التنقّل (Routing) في Flutter، سواء باستخدام
+Normal Route (عبر الـ constructor) أو
+Named Route (عبر أسماء الصفحات).
 
-## Getting Started
+🎯 هدف المشروع
 
-This project is a starting point for a Flutter application.
+شرح وتطبيق آليات التنقّل في Flutter بطريقة عملية من خلال ثلاثة شاشات رئيسية:
 
-A few resources to get you started if this is your first Flutter project:
+Home Page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Profile Page
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setting Page
+
+مع تطبيق جميع الدوال الخاصة بالتنقّل:
+
+push()
+
+pushReplacement()
+
+pushAndRemoveUntil()
+
+pushNamed()
+
+pushReplacementNamed()
+
+pushNamedAndRemoveUntil()
+
+pop()
+
+pop N times
+
+وذلك باستخدام مدير تنقّل مخصص:
+
+✔ RouterManager
+🌟 المميزات (Features)
+
+انتقال بين الصفحات باستخدام Normal Route.
+
+انتقال بين الصفحات باستخدام Named Route وتمرير بيانات.
+
+إنشاء كلاس Routing مخصص لإدارة الانتقال RouterManager.
+
+تجربة جميع أنواع التنقّل في Flutter.
+
+كود نظيف ومقسم داخل ملفات واضحة.
+
+معالجة Arguments القادمة من Named Route داخل Profile Page.
+
+🔧 التقنيات المستخدمة
+
+Flutter
+
+Dart
+
+Material Design
+
+Navigator API
+
+Routing & Arguments 
+
+🧑‍💻 المطوّر
+
+Ziad Alslahe
+GitHub: https://github.com/alslaheziad-cpu
+
+📌 ملاحظات
+
+هذا المشروع مناسب جدًا لتعلم:
+
+كيفية إنشاء Router Manager مخصص
+
+الفرق بين push و pushReplacement
+
+كيفية استخدام Named Route وتمرير البيانات
+
+تنظيم المشروع إلى صفحات منفصلة
